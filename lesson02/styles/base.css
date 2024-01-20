@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main section styling */
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Individual section styling */
+section {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Concept styling */
+.concept {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Example styling */
+.example {
+    font-style: italic;
+    color: #777;
+}
+
+/* Description styling */
+.description {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+/* Links styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ img {
+    width: 300px;
+    height:fit-content;
+ }
+
+/* Tablet Views ********************************* */
+@media screen and (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    main section:nth-child(3) {
+        grid-column: span 2;
+    }
+}
+
+/* Desktop Views ********************************* */
+@media screen and (min-width: 992px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main section:nth-child(3) {
+        grid-column: span 1;
+    }
+}
