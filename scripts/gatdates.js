@@ -12,3 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var lastModifiedDate = new Date(document.lastModified);
     lastModified.innerHTML = 'Last Modified: ' + lastModifiedDate.toLocaleString();
   });
+
+const mainnav = document.querySelector('.navigation')
+const hambutton = document.querySelector('#menu');
+
+
+  hambutton.addEventListener('click', () => {
+	mainnav.classList.toggle('show');
+	hambutton.classList.toggle('show');
+});
