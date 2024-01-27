@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
     lastModified.innerHTML = 'Last Modified: ' + lastModifiedDate.toLocaleString();
   });
 
-const mainnav = document.querySelector('.navigation')
-const hambutton = document.querySelector('#menu');
+  const mainnav = document.querySelector('.navigation')
+  const hambutton = document.querySelector('#menu');
 
 
   hambutton.addEventListener('click', () => {

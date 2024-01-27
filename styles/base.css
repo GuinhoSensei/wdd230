@@ -77,10 +77,10 @@ iframe {
     height: 500px;
     margin-top: 20px;
 }
-
+ 
 /* Responsive styles */
 @media (max-width: 600px) {
-    #menu{
+   #menu {
         display: block;
         font-size: 1rem;
         font-weight: 700;
@@ -88,16 +88,14 @@ iframe {
         padding: 10px 15px;
         background-color: rgb(73, 71, 71);
         color: #ddd;
-    }
-    
-    #menu::before{
+    } #menu::before{
         content:"≡";
     }
     
     #menu.open::before{
         content:"X";
     }
-    
+   
     .navigation {
         list-style: none;
         margin: 0 auto;
