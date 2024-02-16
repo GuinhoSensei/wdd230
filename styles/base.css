@@ -54,6 +54,10 @@ h2 {
     margin-top: 15px;
 }
 
+#hero-img{
+    max-width: 960px;
+    
+}
 
 ul {
     list-style: none;
