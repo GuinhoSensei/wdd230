@@ -81,7 +81,19 @@ iframe {
     height: 500px;
     margin-top: 20px;
 }
- 
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+
 /* Responsive styles */
 @media (max-width: 600px) {
    #menu {
