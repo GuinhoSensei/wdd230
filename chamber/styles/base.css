@@ -177,6 +177,12 @@ body {
     flex-direction: column;
   }
 
+  form {
+    display: flex;
+    flex-direction: column;
+    color: #a7c2b5;
+  }
+
   .events-card, .weather-card, .community-card, .cookies-card, .earth-card, .egg-card, .summer-card, .tree-card{
     margin: 200px 0;
   }
@@ -237,6 +243,12 @@ body {
 	font-size: 3rem;
 	cursor: pointer;
 	font-size: 2rem;
+}
+
+.membership-levels {
+  color: #7f9e8e;
+  width: 75%;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 900px) {
