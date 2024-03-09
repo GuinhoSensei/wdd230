@@ -40,25 +40,14 @@
        </div>
    </section>
        </div>
-   <main class="home-grid">
-       <section class=" events-card">
-           <h2>Current Events</h2>
-           <img class="card-img" src="images/events.jpg" alt="Events happening now">
-           
-       </section>
-       <section class=" weather-card">
-        <h2>Weather</h2>
-           <img class="card-img" src="images/weather.jpg" alt="Curent Weather">
-           
-       </section>
-       <div id="background"></div>
-       <img class="spotlights" src="images/spotlights.jpg" alt="Spotlights">
-       <section class="msg">
-           <h2>Spotlights</h2>
-           <p>havent decided somethin for this yet, but when I do, it will be good! </p>
-           <a class='join' href="join.html">Join Us</a>
-       </section>
-   </main>
+       <div class="container">
+        <div class="toggle-view">
+          <button id="grid-view">Grid View</button>
+          <button id="list-view">List View</button>
+        </div>
+        <div id="members-container" class="grid-view">
+        </div>
+    </div>
    <footer>
         <p id="copyright"></p>
         <p id="lastModified"></p>
@@ -74,6 +63,7 @@
             </a>
         </div>
    </footer>
+   <script src="scripts/getmembers.js"></script>
    <script src="scripts/getdates.js"></script>
    <script src="scripts/hamburger.js"></script>
    <script src="scripts/darkmode.js"></script>
