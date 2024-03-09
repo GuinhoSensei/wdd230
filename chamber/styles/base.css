@@ -251,6 +251,35 @@ body {
   margin-top: 20px;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #333;
+
+}
+
+.toggle-view button {
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.list-view .member {
+  margin-bottom: 20px;
+}
+
+.member img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 900px) {
   #hamburger {
       display: block;
