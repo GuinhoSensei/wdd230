@@ -1,0 +1,98 @@
+{
+    "lessons": [
+      {
+        "lesson": "01",
+        "links": [
+          {
+            "url": "lesson01/holygrail.html",
+            "title": "Holy Grail"
+          }
+        ]
+      },
+      {
+        "lesson": "02",
+        "links": [
+          {
+            "url": "lesson02/desing-principles.html",
+            "title": "Desing Principles"
+          }
+        ]
+      },
+      {
+        "lesson": "03",
+        "links": [
+          {
+            "url": "lesson03/chamber-site-plan.html",
+            "title": "Site Plan"
+          }
+        ]
+      },
+      {
+        "lesson": "03",
+        "links": [
+          {
+            "url": "https://codepen.io/GuinhoSensei/pen/bGZoYqN",
+            "title": "Pseudo Element"
+          }
+        ]
+      },
+      {
+        "lesson": "03",
+        "links": [
+          {
+            "url": "https://codepen.io/GuinhoSensei/pen/YzgrErd",
+            "title": "Responsive Menu"
+          }
+        ]
+      },
+      {
+        "lesson": "05",
+        "links": [
+          {
+            "url": "lesson05/bom.html",
+            "title": "Book of Mormon"
+          }
+        ]
+      },
+      {
+        "lesson": "07",
+        "links": [
+          {
+            "url": "lesson07/lazyload.html",
+            "title": "Lazy Load"
+          }
+        ]
+      },
+      {
+        "lesson": "08",
+        "links": [
+          {
+            "url": "lesson08/tablebuild.html",
+            "title": "Table Build"
+          }
+        ]
+      },
+      {
+        "lesson":"09",
+        "links" :[
+            {
+                "ur": "lesson09/new-ward-members.json",
+                "title": "New Mebers" 
+            }
+        ]
+      },
+      {
+        "lesson": "09",
+        "links": [
+            {
+                "url": "lesson09/prophets.html",
+                "title": "Prophets"
+            }
+        ]
+      }
+    ]
+  }
+  
+
+  
+  
