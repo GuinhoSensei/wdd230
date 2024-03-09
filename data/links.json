@@ -28,24 +28,6 @@
         ]
       },
       {
-        "lesson": "03",
-        "links": [
-          {
-            "url": "https://codepen.io/GuinhoSensei/pen/bGZoYqN",
-            "title": "Pseudo Element"
-          }
-        ]
-      },
-      {
-        "lesson": "03",
-        "links": [
-          {
-            "url": "https://codepen.io/GuinhoSensei/pen/YzgrErd",
-            "title": "Responsive Menu"
-          }
-        ]
-      },
-      {
         "lesson": "05",
         "links": [
           {
@@ -77,7 +59,7 @@
         "links" :[
             {
                 "ur": "lesson09/new-ward-members.json",
-                "title": "New Mebers" 
+                "title": "New Members"
             }
         ]
       },
