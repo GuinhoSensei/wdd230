@@ -35,7 +35,7 @@ async function fetchForecast() {
         const dailyAverages = [];
         for (let i = 0; i < forecastTemperatures.length; i += 8) {
             const dailyTempSum = forecastTemperatures.slice(i, i + 8).reduce((acc, temp) => acc + temp, 0);
-            const dailyAverageTemp = dailyTempSum / 8;
+            const dailyAverageTemp = (dailyTempSum / 8).toFixed(2);
             dailyAverages.push(dailyAverageTemp);
         }
 
