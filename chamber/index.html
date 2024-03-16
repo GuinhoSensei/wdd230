@@ -47,6 +47,7 @@
        <div class="button-box">
            <a class="book" href="join.html">Join Us</a>
        </div>
+
    </section>
        </div>
    <main class="home-grid">
@@ -58,15 +59,24 @@
        <section class=" weather-card">
         <h2>Weather</h2>
            <img class="card-img" src="images/weather.jpg" alt="Curent Weather">
-           
+           <div id="weather">
+            <!-- Weather data will be displayed here -->
+        </div>
        </section>
+
        <div id="background"></div>
+       
        <img class="spotlights" src="images/spotlights.jpg" alt="Spotlights">
        <section class="msg">
            <h2>Spotlights</h2>
+           <div id="banner">
+            <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+            <button onclick="closeBanner()">Close</button>
+        </div>
            <p>havent decided somethin for this yet, but when I do, it will be good! </p>
            <a class='join' href="join.html">Join Us</a>
        </section>
+
    </main>
    <footer>
         <p id="copyright"></p>
@@ -87,6 +97,7 @@
    <script src="scripts/hamburger.js"></script>
    <script src="scripts/darkmode.js"></script>
    <script src="scripts/windchill.js"></script>
+   <script src="scripts/weather.js"></script>
    </div>
    </body>
    </html>

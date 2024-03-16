@@ -280,6 +280,12 @@ body {
   border-radius: 5px;
 }
 
+#banner {
+  display: none;
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  
 @media screen and (max-width: 900px) {
   #hamburger {
       display: block;
