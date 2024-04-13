@@ -1,0 +1,106 @@
+{
+  "rentals": [
+    {
+      "name": "Honda Motor Scooters",
+      "image": "images/metro49cc.jpeg",
+      "description": [
+        "Honda Metropolitan (49cc) - 1 person"
+      ],
+      "prices": {
+        "half_day": {
+          "min": 20,
+          "max": 40
+        },
+        "full_day": {
+          "min": 30,
+          "max": 50
+        }
+      }
+    },
+    {
+      "name": "Honda Motor Scooters",
+      "image": "images/dio110cc.jpeg",
+      "description": [
+        "Honda Dio (110cc) - 2 person"
+      ],
+      "prices": {
+        "half_day": {
+          "min": 30,
+          "max": 40
+        },
+        "full_day": {
+          "min": 35,
+          "max": 45
+        }
+      }
+    },
+    {
+      "name": "Honda Motor Scooters",
+      "image": "images/pcx150.jpeg",
+      "description": [
+        "Honda PCX150 (149cc) - 2 person"
+      ],
+      "prices": {
+        "half_day": {
+          "min": 40,
+          "max": 50
+        },
+        "full_day": {
+          "min": 45,
+          "max": 55
+        }
+      }
+    },
+    {
+      "name": "Side-by-Side ATVs",
+      "image": "images/pioneer.jpeg",
+      "description": [
+        "Honda Pioneer 1000 - 4 person"
+      ],
+      "prices": {
+        "half_day": {
+          "min": 50,
+          "max": 50
+        },
+        "full_day": {
+          "min": 70,
+          "max": 70
+        }
+      }
+    },
+    {
+      "name": "Jeeps",
+      "image": "images/wrangler4d.jpeg",
+      "description": [
+        "Jeep Wrangler - 4 door manuel with A/C - 5 person"
+      ],
+      "prices": {
+        "half_day": {
+          "min": 70,
+          "max": 100
+        },
+        "full_day": {
+          "min": 85,
+          "max": 125
+        }
+      }
+    },
+    {
+      "name": "Jeeps",
+      "image": "images/wrangler2d.jpeg",
+      "description": [
+        "Jeep Wrangler - 2 door - open air - manuel - 4 person"
+      ],
+      "prices": {
+        "half_day": {
+          "min": 60,
+          "max": 85
+        },
+        "full_day": {
+          "min": 70,
+          "max": 90
+        }
+      }
+    }
+  ]
+}

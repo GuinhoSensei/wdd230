@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Thiago Gouveia">
+    <meta name="description" content="">
+
+    <title>Scoots - Home</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="icon" href="favicon.ico">
+
+    <meta property="og:url" content="https://github.com/GuinhoSensei/wdd230">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Thaigo Gomes Gouveia - WDD 230 - Web Frontend Development">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="reservation-form">
+            <h2>Rental Reservation</h2>
+            <form id="reservation-form">
+                <div class="form-group">
+                    <label for="rental-type">Rental Type</label>
+                    <select id="rental-type" name="rental-type">
+                        <option value="scooter">Honda Motor Scooters</option>
+                        <option value="atv">Side-by-Side ATVs</option>
+                        <option value="jeep">Jeeps</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="period">Period</label>
+                    <select id="period" name="period">
+                        <option value="half_day">Half Day</option>
+                        <option value="full_day">Full Day</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="number">Number of Rentals</label>
+                    <input type="number" id="number" name="number" min="1" value="1">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Home State or Country</label>
+                    <input type="text" id="location" name="location">
+                </div>
+                <div class="form-group">
+                    <label for="cruise">Cruise Line (if applicable)</label>
+                    <input type="text" id="cruise" name="cruise">
+                </div>
+                <div class="form-group">
+                    <label for="comments">Special Accommodations/Comments</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p id="copyright"></p>
+        <p id="lastModified"></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
